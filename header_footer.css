@@ -1,0 +1,77 @@
+header {
+  background-color: rgba(255,255,255);
+  height: 65px;
+  width: 100%;
+  min-width: 800px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border-bottom: solid 2px rgba(0,173,251);
+  padding-left: 0;
+}
+
+.header-logo {
+  color: white;
+  background-color: rgba(0,173,251);
+  float: left;
+  font-size: 50px;
+  height: 65px;
+  width: 150px;
+  padding-left: 30px;
+}
+
+.header-menu {
+  float: left;
+  margin-top: 15px;
+}
+
+.menu {
+  color: rgba(0,173,251);
+  font-size: 30px;
+  border: solid 2px;
+  padding: 0 5px;
+  margin: 0 30px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255,255,0,1);
+  transition: all 0.2s;
+}
+
+.header-right:hover {
+  background-color: rgba(255,255,0,0.7);
+}
+
+.contact {
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  line-height: 65px;
+  padding: 0 15px;
+  display: block;
+}
+
+footer {
+  background-color: rgba(0,217,10,0.8);
+  color: white;
+  height: 60px;
+  margin-top: 0;
+}
+
+.footer-logo {
+  font-size: 50px;
+  float: left;
+}
+
+.footer-right {
+  font-size: 11px;
+  line-height: 6px;
+  float: right;
+  margin-right: 16px;
+}
+
+.footer-right p {
+  font-size: 14px;
+}
